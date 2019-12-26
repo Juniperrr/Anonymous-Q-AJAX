@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+	<title>ANONYMOUS Q&AIT</title>
+	<link href="/stylesheets/style.css" rel="stylesheet">
+	<meta charset="utf-8" /> 
+  </head>
+  <body>
+	<div id="content">
+	  <header>
+		<h1>ANONYMOUS Q&AIT</h1>
+	  </header>   
+	  <main>
+		<!-- 1 -->
+		<input type="button" id="btn-show-modal-question" value="Ask a Question">	
+		<div class="display"></div>
+	  </main>
+	  <div id="modal-question" class="modal">
+		<div class="modal-content">
+		  <!-- unseen? .. but you type in your question in the input box -->
+		  <input type="text" id="question-text" name="title" value="">
+		  <input type="button" class="submit" id="create-question" value="Ask">
+		  <input type="button" class="close" id="cancel-create-question" value="Cancel">
+		</div>
+	  </div>
+	  <div id="modal-answer" class="modal">
+		<div class="modal-content">
+		  <!-- unseen? .. but you type in your answer in the input box-->
+		  <input type="text" id="answer-text" name="title" value="">
+		  <input type="button" class="submit" id="create-answer" value="Answer">
+		  <input type="button" class="close" id="cancel-create-answer" value="Cancel">
+		  <input type="hidden" id="question-id" value="">
+		</div>
+	  </div>
+	</div>
+	<script src="javascripts/index.js"></script>
+  </body>
+</html>
