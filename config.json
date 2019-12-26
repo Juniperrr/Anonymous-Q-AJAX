@@ -1,0 +1,5 @@
+{
+  "title": "# QnA recorded",
+  "port": 3000,
+  "dbconf": "mongodb://localhost/hw07"
+}
